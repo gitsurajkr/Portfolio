@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter"
 import Image from "next/image";
 import { MdDownload } from "react-icons/md"
-import FadeIn from "@/components/FadeIN";
+import FadeIn from "../components/FadeIn";
 export default function Home() {
   return (
     <section className="max_padd_container py-16 h-screen lg:py-32 ">
@@ -62,7 +62,6 @@ export default function Home() {
           </div>
         </motion.div>
         {/* right */}
-
         <motion.div
           variants={FadeIn("right", 0.9)}
           initial="hidden"
