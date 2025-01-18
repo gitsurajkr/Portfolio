@@ -12,31 +12,31 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 export const LINKS = [
     {
-        title: 'home',
+        title: 'Home',
         icon: <HiHome />,
         path: '/'
     }
     ,
     {
-        title: 'about',
+        title: 'About',
         icon: <HiUser />,
         path: '/about'
     }
     ,
     {
-        title: 'work',
+        title: 'Work',
         icon: <HiSquare2Stack />,
         path: '/work'
     }
     ,
     {
-        title: 'testimonials',
+        title: 'Testimonials',
         icon: <HiChatBubbleBottomCenterText />,
         path: '/testimonials'
     }
     ,
     {
-        title: 'contact',
+        title: 'Contact',
         icon: <HiEnvelope />,
         path: '/contact'
     }
