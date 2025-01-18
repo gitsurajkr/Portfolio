@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {  RiLinkedinFill, RiGithubFill, } from "react-icons/ri"
 import { FaXTwitter } from "react-icons/fa6";
-import { AiFillInstagram } from "react-icons/ai";
+// import { FaDiscord } from "react-icons/fa";
 
 
 
@@ -31,9 +31,7 @@ const SocialIcons = () => {
             <Link href={'https://www.linkedin.com/in/suraj-kumar-46b43624b/'} className='bg-[#eaeaea] p-2 text-tertiary text-lg rounded-full rounded-bl-none hover:bg-tertiary hover:text-white hover:rounded-bl-full hover:rounded-tl-none transition-all duration-500 '>
                 <RiLinkedinFill />
             </Link>
-            <Link href={'https://www.instagram.com/ig_surajkr/profilecard/?igsh=MWRyeGpzN3R4MGtqYQ=='} className='bg-[#f9ed69] p-2 text-tertiary text-lg rounded-full rounded-bl-none hover:bg-tertiary hover:text-white hover:rounded-bl-full hover:rounded-tl-none transition-all duration-500 '>
-                <AiFillInstagram />
-            </Link>
+            
             <Link href={'https://github.com/gitsurajkr'} className='bg-[#5272f2] p-2 text-tertiary text-lg rounded-full rounded-bl-none hover:bg-tertiary hover:text-white hover:rounded-bl-full hover:rounded-tl-none transition-all duration-500 '>
                 <RiGithubFill />
             </Link>
