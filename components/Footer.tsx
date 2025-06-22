@@ -1,6 +1,7 @@
 import github from "@/public/Icon/github.svg";
 import linkedin from "@/public/Icon/linkedin.svg";
 import x from "@/public/Icon/x.svg";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -12,7 +13,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1"
         >
-          <img src={github.src} alt="GitHub" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
+          <Image src={github.src} alt="GitHub" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
         </a>
         
         <a 
@@ -21,7 +22,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1"
         >
-          <img src={linkedin.src} alt="Linkedin" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
+          <Image src={linkedin.src} alt="Linkedin" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
         </a>
         
         <a 
@@ -30,7 +31,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1"
         >
-          <img src={x.src} alt="Twitter" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
+          <Image src={x.src} alt="Twitter" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
         </a>
       </div>
     </footer>

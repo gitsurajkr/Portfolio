@@ -15,6 +15,7 @@ import tensorflow from "@/public/Icon/tensorflow.svg"
 import webrtc from "@/public/Icon/webrtc.svg"
 import github from "@/public/Icon/github.svg";
 import turbo_Repo  from "@/public/Icon/turbo.png";
+import Image from "next/image";
 
 
 
@@ -56,7 +57,7 @@ export function Project() {
                         <div className="flex items-center mb-2">
                             <div className="w-1 h-6 bg-orange-500 mr-3" />
                             <span className="text-base font-medium flex-grow">{project.name}</span>
-                            <img 
+                            <Image 
                                 src={github.src} 
                                 alt="GitHub" 
                                 loading="lazy"
@@ -92,8 +93,8 @@ export function Skills() {
     // Skills with icons
     const iconSkills = Object.entries(icons).map(([name, Icon]) => (
         <div key={name} className="flex flex-col items-center">
-            {/* @ts-ignore */}
-            <img src={Icon.src} alt={name} loading="lazy" className="w-10 h-10" />
+            
+            <Image src={Icon.src} alt={name} loading="lazy" className="w-10 h-10" />
             <span className="text-xs mt-2 capitalize">{name}</span>
         </div>
     ));

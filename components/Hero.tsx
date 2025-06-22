@@ -4,11 +4,11 @@ export function Hero() {
       <p className="text-2xl font-bold underline text-teal-600 tracking-widest mb-4">Hello!</p>
 
       <p className="text-base leading-relaxed">
-        I'm <span className="text-red-600 font-bold">Suraj</span>, 21, a student and backend developer .
+        I&apos;m <span className="text-red-600 font-bold">Suraj</span>, 21, a student and backend developer .
       </p>
 
       <p className="mt-4 text-base leading-relaxed">
-        I mostly work with C++, backend systems, and DevOps. I’m also learning cybersecurity (basic stuff like MITM attacks and Wi-Fi hacking), Web3, and AI/ML.
+        I mostly work with C++, backend systems, and DevOps. I&apos;m also learning cybersecurity (basic stuff like MITM attacks and Wi-Fi hacking), Web3, and AI/ML.
       </p>
 
       <p className="mt-4 text-base leading-relaxed">
