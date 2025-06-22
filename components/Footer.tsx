@@ -13,7 +13,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1"
         >
-          <Image src={github.src} alt="GitHub" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
+          <Image src={github.src} alt="GitHub" loading="lazy" width={10} height={10} className="drop-shadow-md hover:drop-shadow-lg" />
         </a>
         
         <a 
@@ -22,7 +22,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1"
         >
-          <Image src={linkedin.src} alt="Linkedin" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
+          <Image src={linkedin.src} alt="Linkedin" loading="lazy" width={10} height={10} className="drop-shadow-md hover:drop-shadow-lg" />
         </a>
         
         <a 
@@ -31,7 +31,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="transform transition-all duration-300 hover:scale-110 hover:-translate-y-1"
         >
-          <Image src={x.src} alt="Twitter" loading="lazy" className="w-10 h-10 drop-shadow-md hover:drop-shadow-lg" />
+          <Image src={x.src} alt="Twitter" loading="lazy" width={10} height={10} className="drop-shadow-md hover:drop-shadow-lg" />
         </a>
       </div>
     </footer>

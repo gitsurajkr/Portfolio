@@ -57,11 +57,14 @@ export function Project() {
                         <div className="flex items-center mb-2">
                             <div className="w-1 h-6 bg-orange-500 mr-3" />
                             <span className="text-base font-medium flex-grow">{project.name}</span>
+                            
                             <Image 
                                 src={github.src} 
                                 alt="GitHub" 
                                 loading="lazy"
-                                className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" 
+                                width={5}
+                                height={5}
+                                className="opacity-0 group-hover:opacity-100 transition-opacity" 
                             />
                         </div>
                         <p className="text-sm text-gray-600 pl-4">{project.description}</p>
@@ -94,7 +97,7 @@ export function Skills() {
     const iconSkills = Object.entries(icons).map(([name, Icon]) => (
         <div key={name} className="flex flex-col items-center">
             
-            <Image src={Icon.src} alt={name} loading="lazy" className="w-10 h-10" />
+            <Image src={Icon.src} alt={name} loading="lazy" width={10} height={10}  />
             <span className="text-xs mt-2 capitalize">{name}</span>
         </div>
     ));
