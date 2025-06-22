@@ -95,11 +95,19 @@ export function WorkingCurrently() {
 export function Skills() {
     // Skills with icons
     const iconSkills = Object.entries(icons).map(([name, Icon]) => (
-        <div key={name} className="flex flex-col items-center">
-            
-            <Image src={Icon.src} alt={name} loading="lazy" width={10} height={10}  />
-            <span className="text-xs mt-2 capitalize">{name}</span>
-        </div>
+        <div key={name} className="flex flex-col items-center justify-center p-2 hover:scale-105 transition-transform">
+            <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center bg-white rounded-lg shadow-sm hover:shadow-md transition-all p-2">
+              <Image 
+                src={Icon.src} 
+                alt={name} 
+                loading="lazy" 
+                width={45} 
+                height={45}
+                className="object-contain"
+              />
+            </div>
+            <span className="text-xs md:text-sm mt-2 font-medium text-center capitalize">{name}</span>
+          </div>
     ));
 
     // Skills without icons
