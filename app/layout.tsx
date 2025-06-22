@@ -31,7 +31,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Suraj Kumar | Portfolio",
+  title: "S U R A J  |  Portfolio",
   description: "Welcome to our space!",
   icons: {
     icon: '/galaxy.png', 
