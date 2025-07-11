@@ -33,9 +33,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "S U R A J  |  Portfolio",
   description: "Welcome to our space!",
-  icons: {
-    icon: '/galaxy.png', 
-  },
+  // icons: {
+  //   icon: '/galaxy.png', 
+  // },
 };
 
 export default function RootLayout({
