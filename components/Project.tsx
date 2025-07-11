@@ -10,9 +10,9 @@ import react from "@/public/Icon/react.svg"
 import Typescript from "@/public/Icon/typescript.svg"
 import prisma from "@/public/Icon/prisma.svg"
 import cloudflare from "@/public/Icon/cloudflare.svg"
-import kafka from "@/public/Icon/kafka.svg"
+// import kafka from "@/public/Icon/kafka.svg"
 import tensorflow from "@/public/Icon/tensorflow.svg"
-import webrtc from "@/public/Icon/webrtc.svg"
+// import webrtc from "@/public/Icon/webrtc.svg"
 import github from "@/public/Icon/github.svg";
 import turbo_Repo  from "@/public/Icon/turbo.png";
 import Image from "next/image";
@@ -22,6 +22,7 @@ import Image from "next/image";
 export const icons = {
     cpp, docker, nextjs, nodejs, Postgress, python, react, Typescript, prisma, cloudflare, tensorflow, github, turbo_Repo 
 }
+
 
 // webrtc kafka 
 
@@ -59,7 +60,6 @@ export function Project() {
                         <div className="flex items-center mb-2">
                             <div className="w-1 h-6 bg-orange-500 mr-3" />
                             <span className="text-base font-medium flex-grow">{project.name}</span>
-                            
                             <Image 
                                 src={github.src} 
                                 alt="GitHub" 
