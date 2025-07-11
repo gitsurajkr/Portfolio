@@ -20,8 +20,10 @@ import Image from "next/image";
 
 
 export const icons = {
-    cpp, docker, nextjs, nodejs, Postgress, python, react, Typescript, prisma, cloudflare, kafka, tensorflow, webrtc, github, turbo_Repo 
+    cpp, docker, nextjs, nodejs, Postgress, python, react, Typescript, prisma, cloudflare, tensorflow, github, turbo_Repo 
 }
+
+// webrtc kafka 
 
 
 export function Project() {
@@ -111,11 +113,13 @@ export function Skills() {
     ));
 
     // Skills without icons
-    const textSkills = [ "WebSockets", "CI/CD Pipeline", "Redis", "Pub/Sub", "Queues"].map((skill) => (
-        <div key={skill} className="flex flex-col items-center justify-center border border-gray-200 rounded-lg p-3 h-full">
-            <span className="text-sm text-center font-medium">{skill}</span>
-        </div>
-    ));
+    // const textSkills = [ "WebSockets", "CI/CD Pipeline", "Redis", "Pub/Sub", "Queues"].map((skill) => (
+    //     <div key={skill} className="flex flex-col items-center justify-center border border-gray-200 rounded-lg p-3 h-full">
+    //         <span className="text-sm text-center font-medium">{skill}</span>
+    //     </div>
+    // ));
+
+    // websockets, CI/CD Pipeline, Redis, Pub/Sub, Queues
 
     return (
         <div className="px-8 pt-8 max-w-3xl pb-16">
@@ -123,7 +127,7 @@ export function Skills() {
 
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 mt-4">
                 {iconSkills}
-                {textSkills}
+                {/* {textSkills} */}
             </div>
         </div>
     );
